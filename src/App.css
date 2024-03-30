@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.home2 {
+  animation: slideIn 0.5s ease forwards; /* Apply animation to Home2 component */
+  opacity: 0; /* Start with 0 opacity */
+}
